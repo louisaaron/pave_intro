@@ -8,4 +8,4 @@ I recommend saving outputs in three lists (```centers```, ```radii```, ```distan
 
 If you don't have any image processing experience, my hint is to basically Google search "how to read images into Python", save the images to a directory on your hard drive, and Stackoverflow your way through it. Python is fantastic for image processing.
 
-Let me know if you have any questions. Feel free to work as a team. After this week, we'll create a Slack.
+Let me know if you have any questions. Feel free to work in teams. After this week, we'll create a Slack.
