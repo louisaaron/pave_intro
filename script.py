@@ -63,9 +63,9 @@ for file in images:
     buoy_bin = ndi.binary_fill_holes(buoy_bin)  # fill holes in buoy
 
     # TEST
-    buoy_bin_test = buoy_bin
-    buoy_bin_test[buoy_bin_test == 1] = 255
-    Image.fromarray(buoy_bin).save("tests/out%d.jpeg" % (count))
+    #buoy_bin_test = buoy_bin
+    #buoy_bin_test[buoy_bin_test == 1] = 255
+    #Image.fromarray(buoy_bin).save("tests/out%d.jpeg" % (count))
 
     id_buoy_y, id_buoy_x = np.where(buoy_bin == 1)  # find buoy pixels
 
@@ -83,9 +83,9 @@ for file in images:
     notwater_bin = ndi.binary_fill_holes(notwater_bin)
 
     # TEST
-    # tree_bin_test = buoy_bin
-    # tree_bin_test[tree_bin_test == 1] = 255
-    # Image.fromarray(notwater_bin).save("tests/out%d.jpeg" % (count))
+    #tree_bin_test = buoy_bin
+    #tree_bin_test[tree_bin_test == 1] = 255
+    #Image.fromarray(notwater_bin).save("tests/out%d.jpeg" % (count))
 
     # check if lowest buoy pixels are above lowest tree pixels
     id_lowest_buoy = np.amax(id_buoy_y)
