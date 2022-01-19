@@ -63,9 +63,9 @@ for file in images:
     buoy_bin = ndi.binary_fill_holes(buoy_bin)  # fill holes in buoy
 
     # TEST
-    buoy_bin_test = buoy_bin
-    buoy_bin_test[buoy_bin_test == 1] = 255
-    Image.fromarray(buoy_bin).save("tests/out%d.jpeg" % (count))
+    # buoy_bin_test = buoy_bin
+    # buoy_bin_test[buoy_bin_test == 1] = 255
+    # Image.fromarray(buoy_bin).save("tests/out%d.jpeg" % (count))
 
     id_buoy_y, id_buoy_x = np.where(buoy_bin == 1)  # find buoy pixels
 
