@@ -10,6 +10,7 @@
     ( pixels * 25.4 ) / 96 = length in mm
     dist in meters = 1 m * 0.035 m / (10^-3 * radius in pixels * 25.4 / 96) = 132.28 / radius in pixels
 
+    Run with the command "java BuoyFinder reader.txt"
     */
 
 import java.awt.Color;
