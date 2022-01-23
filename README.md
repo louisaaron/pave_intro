@@ -1,3 +1,20 @@
+# Program
+This program assumes that either the upper and lower edges, or the left and right
+edges of the red sphere in the given picture exist in the frame (i.e. the circle is not
+cut off by more than one side of the image). Then it finds the center of the circle
+by taking the average of two of these coordinates, the radius by calculating
+half of the distance between them, and distance to the camera using the formula
+below:
+
+    object size in image = Object size * focal length / object distance from camera
+    assume 35 mm focal length, obj size in image = radius, real obj radius = 1 m; DPI of photo is 96
+    ( pixels * 25.4 ) / 96 = length in mm
+    dist in meters = 1 m * 0.035 m / (10^-3 * radius in pixels * 25.4 / 96) = 132.28 / radius in pixels
+
+Run with the command
+
+    java BuoyFinder reader.txt
+
 # pave_intro
 Week 0 PAVE assignment
 
