@@ -1,3 +1,8 @@
+# Code
+
+I basically found code online that could detect circles, altered some of the conditions so that it worked best for this dataset, and used this to compute the centers and radii of the buoys. I explain how I calculated distance in the code.
+
+
 # pave_intro
 Week 0 PAVE assignment
 
