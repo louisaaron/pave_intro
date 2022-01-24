@@ -23,8 +23,9 @@ for i in range(height): # row
 
     if red:
         break
-
-# at this point, i is row of topmost pixel, and j is column
+"""
+at this point, i is row of topmost pixel, and j is column
+"""
 
 # diameter of buoy (pixels)
 diameter = 0
@@ -42,8 +43,10 @@ for k in range(i, height):
     else:
         break
 
-# at this point, i is row of topmost pixel, and j is column
-# k is row of bottommost pixel
+"""
+at this point, i is row of topmost pixel, and j is column. k is row of
+bottommost pixel
+"""
 
 # radius of buoy (pixels)
 radius = int(diameter / 2)
