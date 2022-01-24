@@ -1,3 +1,5 @@
+I used this link for the initial code to detect circles: https://www.pyimagesearch.com/2014/07/21/detecting-circles-images-using-opencv-hough-circles/ It was taking too long to tune the parameters to perfectly capture the circle with the resolution of the images and the different radii of the circles but ignore the very smaller cirles in the treeline so I decided to use two different sets of parameters to detect the smaller circles and then if necessary use another set of parameters to detect the larger circle. I used the formula listed in this post: https://photo.stackexchange.com/questions/12434/how-do-i-calculate-the-distance-of-an-object-in-a-photo to estimate the distance and I made some guesses as to what types of hardware that we would use for the camera after doing a little bit of research. 
+
 # pave_intro
 Week 0 PAVE assignment
 
