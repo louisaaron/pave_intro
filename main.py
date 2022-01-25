@@ -1,55 +1,91 @@
 import cv2
+import os
 
-# double array that stores RGB values of associated pixels from image
-img = cv2.imread("images\lake00.jpeg")
+# function that finds circle's radius (pixels)
+def find_radius(double_arr, i, j, height):
+    diameter = 0
 
-# image height (pixels).. number of rows
-height = len(img)
-
-# image length (pixels).. number of columns
-length = len(img[0])
-
-# loop to find the topmost pixel of the buoy
-for i in range(height): # row
-    for j in range(length): # column
-        B = img[i][j][0]
-        G = img[i][j][1]
-        R = img[i][j][2]
+    for k in range(i, height):
+        B = double_arr[k][j][0]
+        G = double_arr[k][j][1]
+        R = double_arr[k][j][2]
 
         red = R > G and R > B
 
         if red:
+            diameter = diameter + 1
+        else:
             break
 
-    if red:
-        break
-"""
-at this point, i is row of topmost pixel, and j is column
-"""
+    return int(diameter / 2)
 
-# diameter of buoy (pixels)
-diameter = 0
+# function that finds circle's coordinates (pixels) and radius (pixels)
+# returns False if no circle
+def find_circle(double_arr):
+    has_circle = False
+    height = len(double_arr)
+    length = len(double_arr)
 
-# loop to find diameter
-for k in range(i, height):
-    B = img[k][j][0]
-    G = img[k][j][1]
-    R = img[k][j][2]
+    for i in range(height):
+        for j in range(length):
+            B = double_arr[i][j][0]
+            G = double_arr[i][j][1]
+            R = double_arr[i][j][2]
 
-    red = R > G and R > B
+            red = R > G and R > B
 
-    if red:
-        diameter = diameter + 1
+            if red:
+                has_circle = True
+                break
+
+        if red:
+            break
+
+    if has_circle:
+        radius = find_radius(double_arr, i, j, height)
+        x = j
+        y = height - (i + radius)
+        center = [x, y]
+
+        return [center, radius]
     else:
-        break
+        return False
 
-"""
-at this point, i is row of topmost pixel, and j is column. k is row of
-bottommost pixel
-"""
+# list of file names of images
+imgs = os.listdir("images")
 
-# radius of buoy (pixels)
-radius = int(diameter / 2)
+# number of pictures in "images" directory
+number_of_images = len(imgs)
 
-# center as (x, y) coordinates in pixels! Bottom left corner is origin
-center = (j, height - (i + radius))
+# list of the coordinates of the buoy in each image (pixels)
+centers = [None] * number_of_images
+
+# list of the radius of the buoy in each image (pixels)
+radii = [None] * number_of_images
+
+# list of the distances of the buoy from the camera in each image
+distances = [None] * number_of_images
+
+# image index
+index = 0;
+
+for img in imgs:
+    pixels = cv2.imread("images\\"+img)
+    value = find_circle(pixels)
+
+    if value == False:
+        centers[index] = "No buoy detected."
+        radii[index] = "No buoy detected."
+        distances[index] = "No buoy detected"
+    else:
+        centers[index] = value[0]
+        radii[index] = value[1]
+        distances[index] = 0
+
+    index = index + 1
+
+for i in range(number_of_images):
+    print(imgs[i])
+    print(centers[i])
+    print(radii[i])
+    print(distances[i])
