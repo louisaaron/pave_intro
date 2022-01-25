@@ -24,7 +24,7 @@ def find_radius(double_arr, i, j, height):
 def find_circle(double_arr):
     has_circle = False
     height = len(double_arr)
-    length = len(double_arr)
+    length = len(double_arr[0])
 
     for i in range(height):
         for j in range(length):
