@@ -1,0 +1,499 @@
+lake00.jpeg
+597, 597
+24 pixels
+0.724153846153846 meters
+
+lake01.jpeg
+1578, 1578
+128 pixels
+0.13821634615384615 meters
+
+lake02.jpeg
+357, 357
+9 pixels
+1.926076923076923 meters
+
+lake03.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
+
+lake04.jpeg
+534, 534
+141 pixels
+0.1257495908346972 meters
+
+lake05.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
+
+lake06.jpeg
+161, 161
+1 pixels
+17.310692307692307 meters
+
+lake07.jpeg
+2280, 2280
+86 pixels
+0.20425223613595705 meters
+
+lake08.jpeg
+1287, 1287
+48 pixels
+0.363576923076923 meters
+
+lake09.jpeg
+2148, 2148
+1 pixels
+17.310692307692307 meters
+
+lake10.jpeg
+2201, 2201
+131 pixels
+0.1351197886083382 meters
+
+lake11.jpeg
+29, 29
+9 pixels
+1.926076923076923 meters
+
+lake12.jpeg
+1057, 1057
+131 pixels
+0.1351197886083382 meters
+
+lake13.jpeg
+1540, 1540
+13 pixels
+1.3343609467455622 meters
+
+lake14.jpeg
+2266, 2266
+156 pixels
+0.11394674556213015 meters
+
+lake15.jpeg
+688, 688
+135 pixels
+0.13120512820512817 meters
+
+lake16.jpeg
+1802, 1802
+31 pixels
+0.5613126550868486 meters
+
+lake17.jpeg
+2647, 2647
+63 pixels
+0.2777252747252747 meters
+
+lake18.jpeg
+44, 44
+137 pixels
+0.1293335204941044 meters
+
+lake19.jpeg
+52, 52
+3 pixels
+5.772230769230768 meters
+
+lake20.jpeg
+608, 608
+33 pixels
+0.5274755244755244 meters
+
+lake21.jpeg
+1739, 1739
+92 pixels
+0.1911270903010033 meters
+
+lake22.jpeg
+2053, 2053
+32 pixels
+0.5438653846153846 meters
+
+lake23.jpeg
+873, 873
+2 pixels
+8.656846153846153 meters
+
+lake24.jpeg
+1886, 1886
+1 pixels
+17.310692307692307 meters
+
+lake25.jpeg
+1445, 1445
+80 pixels
+0.21934615384615386 meters
+
+lake26.jpeg
+1528, 1528
+31 pixels
+0.5613126550868486 meters
+
+lake27.jpeg
+416, 416
+135 pixels
+0.13120512820512817 meters
+
+lake28.jpeg
+772, 772
+77 pixels
+0.22777522477522474 meters
+
+lake29.jpeg
+1009, 1009
+134 pixels
+0.13216188289322617 meters
+
+lake30.jpeg
+2688, 2688
+1 pixels
+17.310692307692307 meters
+
+lake31.jpeg
+2417, 2417
+20 pixels
+0.8683846153846154 meters
+
+lake32.jpeg
+73, 73
+69 pixels
+0.2538361204013378 meters
+
+lake33.jpeg
+1901, 1901
+1 pixels
+17.310692307692307 meters
+
+lake34.jpeg
+601, 601
+10 pixels
+1.7337692307692307 meters
+
+lake35.jpeg
+425, 425
+125 pixels
+0.14146153846153847 meters
+
+lake36.jpeg
+1947, 1947
+129 pixels
+0.13716815742397137 meters
+
+lake37.jpeg
+1772, 1772
+13 pixels
+1.3343609467455622 meters
+
+lake38.jpeg
+1216, 1216
+142 pixels
+0.1248851570964247 meters
+
+lake39.jpeg
+24, 24
+157 pixels
+0.11324007839294463 meters
+
+lake40.jpeg
+2566, 2566
+2 pixels
+8.656846153846153 meters
+
+lake41.jpeg
+1912, 1912
+105 pixels
+0.1678351648351648 meters
+
+lake42.jpeg
+645, 645
+11 pixels
+1.5764265734265732 meters
+
+lake43.jpeg
+765, 765
+1 pixels
+17.310692307692307 meters
+
+lake44.jpeg
+1048, 1048
+99 pixels
+0.17782517482517482 meters
+
+lake45.jpeg
+684, 684
+80 pixels
+0.21934615384615386 meters
+
+lake46.jpeg
+2178, 2178
+1 pixels
+17.310692307692307 meters
+
+lake47.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
+
+lake48.jpeg
+8, 8
+49 pixels
+0.35621821036106743 meters
+
+lake49.jpeg
+807, 807
+42 pixels
+0.415087912087912 meters
+
+lake50.jpeg
+2669, 2669
+85 pixels
+0.20661990950226244 meters
+
+lake51.jpeg
+745, 745
+49 pixels
+0.35621821036106743 meters
+
+lake52.jpeg
+2208, 2208
+29 pixels
+0.5998169761273209 meters
+
+lake53.jpeg
+2630, 2630
+129 pixels
+0.13716815742397137 meters
+
+lake54.jpeg
+53, 53
+9 pixels
+1.926076923076923 meters
+
+lake55.jpeg
+2376, 2376
+1 pixels
+17.310692307692307 meters
+
+lake56.jpeg
+1675, 1675
+10 pixels
+1.7337692307692307 meters
+
+lake57.jpeg
+946, 946
+11 pixels
+1.5764265734265732 meters
+
+lake58.jpeg
+2615, 2615
+47 pixels
+0.3712487725040916 meters
+
+lake59.jpeg
+2611, 2611
+144 pixels
+0.12319230769230768 meters
+
+lake60.jpeg
+1991, 1991
+75 pixels
+0.23376923076923073 meters
+
+lake61.jpeg
+2399, 2399
+18 pixels
+0.9645384615384615 meters
+
+lake62.jpeg
+1785, 1785
+53 pixels
+0.32956023222060954 meters
+
+lake63.jpeg
+1051, 1051
+7 pixels
+2.4755274725274723 meters
+
+lake64.jpeg
+245, 245
+37 pixels
+0.47077546777546775 meters
+
+lake65.jpeg
+1240, 1240
+49 pixels
+0.35621821036106743 meters
+
+lake66.jpeg
+1945, 1945
+116 pixels
+0.15220424403183022 meters
+
+lake67.jpeg
+1633, 1633
+60 pixels
+0.2914615384615384 meters
+
+lake68.jpeg
+2351, 2351
+10 pixels
+1.7337692307692307 meters
+
+lake69.jpeg
+107, 107
+28 pixels
+0.621131868131868 meters
+
+lake70.jpeg
+686, 686
+39 pixels
+0.44678698224852065 meters
+
+lake71.jpeg
+653, 653
+81 pixels
+0.21667521367521367 meters
+
+lake72.jpeg
+1771, 1771
+25 pixels
+0.6953076923076923 meters
+
+lake73.jpeg
+2143, 2143
+88 pixels
+0.19967832167832164 meters
+
+lake74.jpeg
+2570, 2570
+113 pixels
+0.15616541865214428 meters
+
+lake75.jpeg
+2282, 2282
+11 pixels
+1.5764265734265732 meters
+
+lake76.jpeg
+342, 342
+138 pixels
+0.1284180602006689 meters
+
+lake77.jpeg
+218, 218
+117 pixels
+0.15092899408284022 meters
+
+lake78.jpeg
+1261, 1261
+66 pixels
+0.2652377622377622 meters
+
+lake79.jpeg
+902, 902
+2 pixels
+8.656846153846153 meters
+
+lake80.jpeg
+1127, 1127
+19 pixels
+0.9139311740890687 meters
+
+lake81.jpeg
+383, 383
+113 pixels
+0.15616541865214428 meters
+
+lake82.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
+
+lake83.jpeg
+329, 329
+136 pixels
+0.13026244343891402 meters
+
+lake84.jpeg
+1840, 1840
+3 pixels
+5.772230769230768 meters
+
+lake85.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
+
+lake86.jpeg
+2208, 2208
+88 pixels
+0.19967832167832164 meters
+
+lake87.jpeg
+1398, 1398
+1 pixels
+17.310692307692307 meters
+
+lake88.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
+
+lake89.jpeg
+1928, 1928
+52 pixels
+0.3358402366863905 meters
+
+lake90.jpeg
+1952, 1952
+70 pixels
+0.2502527472527472 meters
+
+lake91.jpeg
+2334, 2334
+25 pixels
+0.6953076923076923 meters
+
+lake92.jpeg
+1495, 1495
+40 pixels
+0.4356923076923077 meters
+
+lake93.jpeg
+2199, 2199
+107 pixels
+0.16475413371675052 meters
+
+lake94.jpeg
+2457, 2457
+145 pixels
+0.12236339522546417 meters
+
+lake95.jpeg
+608, 608
+137 pixels
+0.1293335204941044 meters
+
+lake96.jpeg
+513, 513
+96 pixels
+0.1832884615384615 meters
+
+lake97.jpeg
+298, 298
+97 pixels
+0.18142981760507532 meters
+
+lake98.jpeg
+336, 336
+117 pixels
+0.15092899408284022 meters
+
+lake99.jpeg
+N, N
+No buoy detected. pixels
+No buoy detected meters
