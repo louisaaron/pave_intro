@@ -1,6 +1,12 @@
 import cv2
 import os
 
+# camera focal length in meters
+f = 3 / 1000
+
+# size of a pixel in meters
+pixel_size = .26 / 1000
+
 # function that finds circle's radius (pixels)
 def find_radius(double_arr, i, j, height):
     diameter = 0
@@ -80,12 +86,34 @@ for img in imgs:
     else:
         centers[index] = value[0]
         radii[index] = value[1]
-        distances[index] = 0
+
+        # height of buoy in meters
+        h_o = 3
+
+        # height of image in meters
+        h_i = radii[index] * 2 * pixel_size
+
+        distances[index] = f *  ((-1) * h_o / h_i - 1)
 
     index = index + 1
 
+output = open("Output.txt", 'w')
+
 for i in range(number_of_images):
-    print(imgs[i])
-    print(centers[i])
-    print(radii[i])
-    print(distances[i])
+    output.write(imgs[i])
+    output.write('\n')
+
+    output.write(str(centers[i][0]))
+    output.write(", ")
+    output.write(str(centers[i][1]))
+    output.write('\n')
+
+    output.write(str(radii[i]))
+    output.write(" pixels")
+    output.write('\n')
+
+    output.write(str(distances[i]))
+    output.write(" meters")
+    output.write("\n\n")
+
+output.close()
